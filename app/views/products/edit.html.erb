@@ -1,0 +1,22 @@
+<h1>Edit Form For Products</h1>
+
+<%= form_for @products do |f| %>
+
+	<p>
+		<%= f.label "Name" %><br>
+		<%= f. text_field "Name" %>
+	</p>
+
+	<p>
+		<%= f.label "Description" %><br>
+		<%= f.text_field "Description" %>
+	</p>
+
+	<p>
+		<%=f.label "price_in_cents" %><br>
+		<%= f.text_field "price_in_cents" %>
+	</p>
+
+	<% end %>
+
+
